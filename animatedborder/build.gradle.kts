@@ -48,7 +48,7 @@ android {
 }
 
 afterEvaluate {
-    configure<PublishingExtension> {
+    publishing {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
@@ -57,8 +57,16 @@ afterEvaluate {
                 version = "1.0.1"
             }
         }
+
+        repositories {
+            maven {
+                name = "Jitpack"
+                url = uri("https://jitpack.io")
+            }
+        }
     }
 }
+
 
 dependencies {
     implementation(libs.androidx.core.ktx)
