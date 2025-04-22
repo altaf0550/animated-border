@@ -53,7 +53,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.altaf0550"
-                artifactId = "animatedborder"
+                artifactId = "animated-border"
                 version = "1.0.0"
             }
         }
