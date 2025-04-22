@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/animatedborder" />
+            <option value="$PROJECT_DIR$/animated-border" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

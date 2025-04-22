@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "BorderAnimator"
 include(":app")
-include(":animatedborder")
+include(":animated-border")
+project(":animated-border").name = "animated-border"
